@@ -1,0 +1,785 @@
+/*This is the nav bar css*/
+.bg-custom{
+    background-color: rgb(69, 22, 236);
+    width: 100%;
+}
+
+.cart2{
+  margin-left: 400px;
+  width: 10px;
+  height: 10px;
+ }
+
+.pen3{
+  width: 300px;
+}
+#euro{
+  margin-left: 20px;
+
+}
+
+.see{
+  margin-right: 99px;
+  
+  width: 400px;
+  height: 400px;
+  margin-bottom: 90px;
+  margin: 14px;
+}
+.addtocart{
+  margin-left: 900px;
+ 
+  margin-top: -400px;
+  width: 200px;
+  
+}
+
+.addtocart:hover{
+  background-color: rgb(51, 137, 165);
+
+}
+.list{
+  margin-left: 500px;
+  margin-top: -400px;
+  width: 400px;
+  height: 300px;
+}
+#seeproduct{
+  width: 20px;
+  height: 20px;
+}
+.check{
+  width: 50px;
+  height: 40px;
+}
+#price{
+ 
+  margin-bottom: 200px;
+  margin-left: 900px;
+  margin-top: -350px
+
+}
+
+.carousel-control-prev-icon:hover{
+  background-color: rgb(230, 226, 226);
+  height: 350px;
+  margin-bottom: 50px;
+  
+}
+.carousel-control-next-icon:hover{
+  background-color: rgb(230, 226, 226);
+  height: 350px;
+  margin-bottom: 50px;
+  
+}
+#headingofpen{
+  margin-left:900px;
+  margin-top: -450px;
+}
+
+.but{
+  margin-left: -370px;
+  margin-top: 30px;
+  width: 639px;
+}
+
+.nav-item :hover{
+    background-color: rgb(27, 227, 60);
+}
+
+.dropdown-menu:hover
+{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.navbar-toggler-icon{
+    border-radius: 4px;
+}
+
+.nav-link:hover{
+  color: rgb(255, 255, 255);
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+body
+
+footer a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.container-fluid{
+    color: white;
+}
+.carousel-inner{
+    min-height: 457px;
+}
+
+
+
+#logo{
+    width: 110px;
+    height: 110px;
+    
+}
+
+.card{
+    padding-left: 3px;
+    animation: infinite;
+}
+
+.container{
+    padding: 4px;
+}
+
+
+#home{
+    width: 32px;
+    height: 34px;
+    
+}
+
+
+#cart5{
+   margin-left: 850px;
+   width: 39;
+   height: 38px;
+  
+  
+}
+
+/* Calander css/
+*/
+.dropdown-toggle{
+  background-color: rgb(42, 42, 224);
+}
+
+  /*Syling the cards in the home page*/
+
+  .Beatles{
+    margin-top: 30px;
+    
+
+  }
+  .Kiss{
+    margin-top: 30px;
+  }
+  .ac{
+    height: 947px;
+    
+  }
+  .pinkfloyd{
+    height: 949px;
+  }
+
+  /* styling of the list of articles*/
+
+  .display-1{
+    text-align: center;
+
+    background-color: #666;
+
+    height: 200px;
+  }
+  
+  #imgofp3{
+    width: 300px;
+    margin-left: 400px;
+    border-radius: 30px;
+  }
+  #imgofp5{
+    width: 300px;
+    margin-left: 300px;
+    border-radius: 50px;
+  }
+  .pintext{
+    text-align: center;
+    font-size: xx-large;
+  }
+
+
+  
+  #images{
+    width: 340px;
+    height: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  #images2{
+    width: 240px;
+    height: 220px;
+    animation: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  #images3{
+    width: 340px;
+    height: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  #images4{
+    width: 340px;
+    height: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+
+  /*about heading*/
+  .card-img-top{
+    width: 230px;
+    height: 270px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+  }
+  #about{
+    width: 30px;
+    height: 30px;
+  }
+  .aboutacdc{
+    width: 400px;
+    height: 300px;
+  }
+  
+  .aboutkiss{
+    margin-right: -2px;
+  }
+  
+  .card-text{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+  }
+  .card-title{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+  }
+  
+  .ACDC{
+    width: 300px;
+    height: 300px;
+  }
+  .kiss{
+    width: 327px;
+    height: 300px;
+    margin-right: 600px;
+  }
+
+
+  .text-muted{
+    margin-bottom: 300px;
+    margin-top: -200px;
+  }
+  /*This is the css of the list of articales*/
+
+  .Page{
+    text-align: center;
+    background-color: rgb(238, 233, 233);
+    height: 200px;
+  }
+
+
+
+
+  /*This css represent the articale page*/
+  
+
+  #art{
+    margin-left: 600px;
+    
+    border-radius: 10px;
+    
+    
+  }
+ 
+  .pinkfloydcard{
+    margin-left: 100px;
+    width: 886px;
+    margin-bottom: 600px;
+    margin-top: 100px;
+    height: 700px;
+    
+  }
+  #album{
+    margin-left: 200px;
+    width: 300px;
+    margin-right: 900px;
+    border-radius: 900px;
+  }
+
+
+  .white{
+    width: 400px;
+    height: 400px;
+  }
+  .artp2{
+    margin-bottom: 900px;
+    margin-top: -700px;
+  }
+
+
+  .pinkk{
+    width: 600px;
+    margin-left: 100px;
+    
+  }
+  .pinktext{
+    margin-left: 100px;
+  }
+ 
+
+  #artp{
+
+
+    margin-bottom: 600px;
+    border-radius: 200px;
+    width: 100%;
+
+  }
+
+
+  .card-title2{
+    margin-top: 70px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-family:"Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri" ;
+  }
+ 
+  #imgofp{
+    margin-left: 160px;
+    margin-top: -170px;
+    margin-right: -200px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .card-title3{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+   
+    font-size: xx-large;
+    font-family:"Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri" ;
+  }
+
+  .card-text{
+    margin-top: 40px;
+  }
+
+  .shopping2{
+    margin-right: 200px;
+  }
+
+  .shopping3{
+    margin-right: 240px;
+  }
+
+
+  .shopping{
+    width: 30%;
+    width: 200px;
+    margin-left: 200px;
+  }
+
+ .shopc{
+  width: 100%;
+  height: 100%;
+ }
+
+
+
+
+ .pen{
+  margin-left: 170px;
+  width: 370px;
+  
+
+ }
+ .penimg{
+  margin-left: 0px;
+  width: 20%;
+  height: 500px;
+ }
+
+
+ #cart{
+  width: 20px;
+  height: 20px;
+  
+ }
+
+
+
+ #cart2{
+  width: 22px;
+  height: 22px;
+ 
+
+ }
+ #money{
+  width: 24px;
+  height: 24px;
+ }
+
+
+ 
+  .Page{
+    position: relative;
+    font-family:"Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri" ;
+ 
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(154, 150, 150), #fff, rgb(148, 140, 140));
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(109, 104, 104, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+/*any header of the page will animate */
+  #w{
+    position: relative;
+    font-family:"Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri" ;
+ 
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(16, 11, 176), #fff, rgb(47, 12, 174));
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    text-align: center;
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  body {
+    background-color: rgb(15, 211, 45);
+  }
+
+
+  /*About */
+
+  .about{
+    margin-left: 18px;
+    width: 400px;
+    height: 700px;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 20px;
+    
+  }
+  
+  .floyd{
+    margin-left: 88px;
+    width: 500px;
+  }
+  .aboutfloyd{
+    width: 260px;
+    height: 300px;
+    margin-right: 90px;
+    margin-left: 100px;
+    padding-top: 10px;
+  }
+  #vid{
+    width: 300px;
+    width: 100%;
+  }
+
+  .aboutpinkfloyd{
+    
+   width: 200%;
+   height: 700%;
+
+  }
+  .aboutkiss{
+    
+    margin-top: 20px;
+    margin-left: 100px;
+   width: 600px;
+
+  }
+  .aboutKiss{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .date{
+    margin-top: 20px;
+  }
+  #pink{
+    width: 300px;
+    height: 350px;
+    
+    border-radius: 20px;
+  }
+  h5{
+  font-family:"Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri" ;
+ 
+
+  }
+
+  .card-title{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family:"Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri" ;
+    font-size: x-large;
+ 
+  }
+
+  
+  #par{
+    margin-bottom: -900px;
+  }
+
+ 
+  /*contact us*/
+  #email{
+    width: 70%;
+  }
+
+  #name{
+    width: 90%;
+  }
+
+
+  #textarea{
+    width: 20%;
+  }
+
+
+  #inputPassword{
+    width: 20%;
+  }
+
+
+  .link{
+    color: #fff;
+  }
+
+  .btn:hover{
+    color: #fff;
+  }
+
+
+  /*add to cart */ 
+  .add{
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+
+  
+
+  #c1{
+    margin-left: 12px;
+  }
+
+  .acdc{
+    margin-left: 100px;
+  }
+
+
+
+  .footer{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 400px;
+  }
+
+
+/*Purchase styling*/
+  /*This code represent the toast*/
+  /*This section is to design the message */
+
+  #message {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  /*This is the animation when it shows the message */
+  #message.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    
+  }
+  /*These are the animation from where it begin till it ends */
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 20px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 20px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 20px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+  @media screen and (max-width:456) 
+  {
+
+
+    #email{
+      width: 70%;
+      height: 70%;
+    }
+
+
+    .pinkfloydcard{
+      margin-right: 500px;
+    }
+
+    
+  }
+
+  .money{
+    width: 200px;
+  }
+  #moneyimg {
+    margin-left: 2px;
+    width: 35px;
+    height: 35px;
+  }
+
+
+  /*beatles album css*/
+  .beatlesalbum{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+  }
+  
+
+.pin{
+  width: 200px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+#hoverpen:hover{
+  
+  border-radius: 100px;
+ 
+  width: 200px;
+  height: 200px;
+}
+
+#hoverpen{
+  margin-left: -0px;
+  width: 200px;
+}
+
+#pinky{
+  margin-top: -50px;
+  width: 200px;
+  margin-left: 200px;
+}
+.hoddie{
+  flex-direction:column ;
+  width: 200px;
+  margin-left: 100px;
+}
+.button{
+  width: 300px;
+  height: 300px;
+}
+.albumscol{
+  margin-left: 200px;
+}
+.albumitem{
+  margin-left: 100px;
+}
+#hoddieb{
+  width: 500px;
+  height: 400px;
+}
+#kisspen{
+  width: 400px;
+  height: 400px;
+}
+
+.key{
+  margin-right: 200px;
+  width: 600px;
+  height: 600px;
+}
+#pendant{
+  width: 410px;
+  height: 440px;
+  
+}
+
+
+@media screen and (min-width: 456px){
+  .contain{
+    margin-right: 400px;
+  }
+
+
+}

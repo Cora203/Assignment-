@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Assignment </title>
+    
+    <link rel="stylesheet" href="  https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+
+    <!--As a reference i got the animation from this link https://csshint.com/text-animations/-->
+</head>
+<body>
+    <!--This part is for the nav bar and toggle menu-->
+    <nav class="navbar navbar-expand-lg bg-custom  text-light navbar-dark">
+        <div class="container-fluid">
+            <img id="logo"src="assets/images/logo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        
+                        
+                          <a class="nav-link " href="index.html" role="button"  aria-expanded="false">
+                                Home Page <img id="home"src="assets/images/home.png" alt="home-icon"></a> 
+                           
+                        
+                        <li class="nav-item">
+                            
+                            
+                                <a class="nav-link " href="About.html" role="button"  aria-expanded="false">
+                                    About <img id="home"src="assets/images/about.png" alt="list-icon"></a> 
+                                </a>
+                        <li class="nav-item">
+                            
+                            
+                                <a class="nav-link " href="list of articles.html" role="button"  aria-expanded="false">
+                                    List of Articles <img id="home"src="assets/images/list.png" alt="list-icon"></a> 
+                                </a>
+                                
+                            
+                            <li class="nav-item">
+                                
+                               
+                                    <a class="nav-link " href="Articale.html" role="button"  aria-expanded="false">
+                                        Article Page <img id="home"src="assets/images/page.png" alt="pageicon"></a> 
+                                    </a>
+                                    
+                                
+                                <li class="nav-item">
+                                    
+                                    
+                                        <a class="nav-link " href="contact.html" role="button"  aria-expanded="false">
+                                            Contact Us <img id="home"src="assets/images/forrm.png" alt="contact-icon"></a> 
+                                        </a>
+
+
+                                        
+
+
+
+                    
+                    </ul>
+                    
+                    <!--For a reference I got the calander from this website
+                    https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_date-->
+                                        
+                                        <form class="d-flex">
+                                            <div class="dropdown">
+                                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  Select A date 
+                                                </button>
+                                                <ul id="drop" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                    
+                                                <input type="date" id="tour" name="tour">
+                                                </ul>
+                                              </div>
+                                          </form>    
+                                    
+                                    
+                                    
+                                          
+                                
+                            </div>
+                            
+                        </div>
+                   
+
+                    </nav>
+                   
+                    <!--This is the welcome page -->
+                    <h1 id="w">Welcome </h1>
+                       
+                     <!--The main bulk consist of 4 carousel images of the 4 bands -->           
+                    <main>
+                                    
+                        <div class="container">
+                            <div class="row mb-1">
+                                <div class="col">
+                                    <div class="card pinkfloyd"  class="card h-100">
+                                        <div id="carousel1" class="carousel slide" data-bs-interval="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="https://teeruto.com/wp-content/uploads/2022/04/Pink-Floyd.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="https://m.media-amazon.com/images/I/51dF76bfnXL.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                
+                                               
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Pink Floyd </h5>
+                                            <p>Pink Floyd are an English rock band formed in London in 1965.Pink Floyd were founded in 1965.Pink Floyd are an English rock band formed in London in 1965. Gaining an early following as one of the first British psychedelic groups, 
+                                                they were distinguished by their extended compositions, sonic experimentation,and elaborate live shows.</p>
+                                            
+                                        </div>
+                                        <a href="pinkfloyd item.html"><button id="pinky"  type="button" class="btn btn-primary">Shop Now</button></a>
+                                       
+                                        
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card ac" class="d-block w-50" >
+                                        <div id="carousel2" class="carousel slide" data-bs-interval="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="https://thisis-images.scdn.co/37i9dQZF1DZ06evO49hLQA-large.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img
+                                                     src="https://i.guim.co.uk/img/media/663df4ca465081b796ad837755286ce87c8eaaa7/475_93_6066_3640/master/6066.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=10820714d47104bd0ab70450903ed8eb" class="d-block w-100" alt="...">
+                                                </div>
+                                                
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">ACDC  </h5>
+                                            <p> AC/DC underwent several line-up changes before releasing their first album.AC/DC are an Australian rock band formed in Sydney, New South Wales, Australia in 1973 by Scottish-born brothers .
+                                                 Their music has been variously described as hard rock, blues rock, and heavy metal.</p>
+                                            
+                                        </div>
+                                        
+                                        <a href="theacdc.html"><button id="pinky"  type="button" class="btn btn-primary">Shop Now</button></a>
+                                    </div>
+
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="card Beatles" class="d-block w-50" >
+                                            <div id="carousel3" class="carousel slide" data-bs-interval="false">
+                                                
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img src="https://static01.nyt.com/images/2022/10/31/arts/31beatles3/31beatles3-superJumbo.jpg " class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUFa0QhvBxg79fI2h6n6wY0EfFr_vo6pi1XXfv1VsU4p34vsmlMN348MCn0bs5khDy-hQ&usqp=CAU" class="d-block w-100" alt="...">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">The Beatles </h5>
+                                                <p>The Beatles were an English rock band, formed in Liverpool in 1960, that comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. 
+                                                    They are regarded as the most influential band of all time and were integral to the development of 1960s counterculture and popular music's recognition as an art form</p>
+                                                
+                                            </div>
+                                            <a href="thebeatlesitem.html"><button id="pinky"  type="button" class="btn btn-primary">Shop Now</button></a>
+                                        </div>
+
+                                    </div>
+                                    <div class="col">
+                                        <div class="card Kiss" class="d-block w-50" >
+                                            <div id="carousel4" class="carousel slide" data-bs-interval="false">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img src="https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgxNjIwNzM0NzA2MDY2Njkw/by_brian_lowe_0281_rtf.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                        <img src="https://static.ffx.io/images/$zoom_0.141%2C$multiply_0.7725%2C$ratio_1.5%2C$width_756%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/34cc72edab6430f12b5bfa4b22d28028cacf2477" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    
+                                                </div>
+                                                <button class="carousel-control-prev carousel btn" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kiss  </h5>
+                                                <p>In 1983, Kiss began performing without makeup and costumes.Kiss is an American rock band formed in New York
+                                                     City in 1973 by Paul Stan, Gene Simmons,Ace Frehley, and Peter Criss.With their makeup and costumes, the band members took on the personae of comic book-style characters: 
+                                                     the Starchild (Stan.</p>
+                                                
+                                            </div>
+                                           
+                                            
+                                            <a href="thekissitwm.html"><button id="pinky"  type="button" class="btn btn-primary">Shop Now</button></a>
+                                        </div>
+                                        <br>
+                                        
+
+                             
+                                    </div>
+                                </div>
+                              
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                
+            </main>
+                     
+            <!--This contains the shopping-->
+       
+              
+               
+            <!--This part is for the footer-->
+                        
+                        <div class="col-2"></div>
+                    </div>
+
+            <!--This is the footer-->
+                    <div class="row">
+                        <footer>
+                            <div class="container-fluid bg-custom footer">
+                                <div class="row">
+                                    
+                                    <div class="col">&copy;Corinne&vert;2022</div>
+                                    <div class="col">
+                                        <h5>Important links </h5>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Warrantys</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Legeal notice </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Contact  us </h5>
+                                        <ul>
+                                            <li>
+                                                tel:79331085</li>
+                                                <li ><a href="mailto:corinnevella2002@gmail.com">Email:corinnevella2002@gmail.com</a></li>
+                                                <li>Address 1, Triq il-kbira <br> Mosta,Malta </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                    
+                   
+                    
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+                    
+                </body>
+                </html>

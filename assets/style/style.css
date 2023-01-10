@@ -151,7 +151,7 @@ footer ul{
 
 #cart5{
    margin-left: 850px;
-   width: 39;
+   width: 39px;
    height: 38px;
   
   
@@ -681,7 +681,7 @@ footer ul{
     to {bottom: 0; opacity: 0;}
   }
 
-  @media screen and (max-width:456) 
+  @media screen and (max-width:456px) 
   {
 
 
